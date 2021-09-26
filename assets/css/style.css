@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* full header section */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,16 +17,19 @@ body {
   color: #ffffff;
 }
 
+/* logo of page inside header */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* special coloring for mid section of logo */
 .header h1 .seo {
   color: #d9dcd6;
 }
 
-.header div {
+/* navigation options inside header */
+.header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,24 +37,29 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+/* the styling below is redundant */
+/* .header div ul {
   list-style-type: none;
-}
+}  */
 
-.header div ul li {
+/* style and margins of nav items */
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* style of links/anchors */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* style of paragraphs */
 p {
   font-size: 16px;
 }
 
+/* hero image */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,90 +69,15 @@ p {
   background-position: center;
 }
 
-.hero figcaption {
-  color: white;
-  font-size: xx-small;
-  text-align: right;
-  margin-right: 20px;
-  padding-top: 10px;
-}
-
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
+/* style of main content section on the left */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
+/* style of content items in main section on the left */
+.content-item {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -152,7 +86,8 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -168,26 +103,28 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+.content-item img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* .online-reputation-management img {
   max-height: 200px;
 }
 
 .social-media-marketing img {
   max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.content-item h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -195,8 +132,85 @@ p {
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
+} */
+
+/* style of img elements inside the content elements in the main section */
+.img-float-left {
+  float: left;
+  margin-right: 25px;
 }
 
+.img-float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* style of sub-section on the right side */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* The style of every element in this section is the same for all elements */
+.benefit-item {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* .benefit-brand {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+} */
+
+/* The style of h3 elements in this section is the same for all elements */
+.benefit-item h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* .benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+} */
+
+/* The style of img elements in this section is the same for all elements */
+.benefit-item img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* THE STYLES BELOW ARE COMMENTED BECAUSE THEY ARE REDUNDANT */
+/* #img-brand-awareness {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+#img-cost-management {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+} */
+
+/* style of the footer section */
 .footer {
   padding: 30px;
   clear: both;
@@ -205,6 +219,7 @@ p {
   text-align: center;
 }
 
+/* style of footer text */
 .footer h2 {
   font-size: 20px;
 }
